@@ -1,0 +1,36 @@
+#landingPageCarousel {
+    height: 100vh;
+}
+
+#landingPageCarousel .carousel-inner, 
+#landingPageCarousel .carousel-item {
+    height: 100%;
+}
+
+.carousel-item {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#slideOne {
+    background-image: url(../img/desert.jpg);
+}
+
+#slideTwo {
+    background-image: url(../img/frozen.jpg);
+}
+
+#slideThree {
+    background-image: url(../img/mountains.jpg);
+}
+
+/* .carousel-inner > .carousel-item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+} */
