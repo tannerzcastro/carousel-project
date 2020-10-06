@@ -15,16 +15,25 @@
 }
 
 #slideOne {
-    background-image: url(../img/desert.jpg);
+    background-image: url("../img/continent.jpg");
 }
 
 #slideTwo {
-    background-image: url(../img/frozen.jpg);
+    background-image: url("../img/country.jpg");
 }
 
 #slideThree {
-    background-image: url(../img/mountains.jpg);
+    background-image: url("../img/state.jpg");
 }
+
+#slideFour {
+    background-image: url("../img/city.jpg");
+}
+
+#slideFive {
+    background-image: url("../img/dodgers.jpg");
+}
+
 
 /* .carousel-inner > .carousel-item {
     position: relative;
